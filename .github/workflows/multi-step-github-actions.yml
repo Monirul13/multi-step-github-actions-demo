@@ -56,7 +56,7 @@ jobs:
           gradle --version
           
           
-      - name: Step 7 - Log build tools versions
+      - name: Step 8 - Log the post-build disk space
         run: df 
         
            
